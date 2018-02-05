@@ -3,7 +3,7 @@ package uk.hel.statistic.activity;
 import uk.hel.statistic.datastore.DataStore;
 
 /**
- * This interface is the root of the statistical activity hierarchy. It exists
+ * This abstract class is the root of the statistical activity hierarchy. It exists
  * to define a relationship between different statistical activities and to hold
  * common functionality across activities. A statistical activity represents a
  * group of methods and functions that can be used against a defined

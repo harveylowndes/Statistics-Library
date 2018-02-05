@@ -14,7 +14,7 @@ import uk.hel.statistic.checksum.Checksum;
  * @author Harvey Lowndes
  *
  */
-public class ChecksumUtil {
+public final class ChecksumUtil {
 
 	public static final String DEFAULT_CHECKSUM_ALGORITHM = "MD5";
 

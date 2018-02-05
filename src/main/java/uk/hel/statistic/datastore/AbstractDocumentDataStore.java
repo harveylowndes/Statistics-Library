@@ -3,7 +3,13 @@ package uk.hel.statistic.datastore;
 import uk.hel.statistic.checksum.Checksum;
 
 /**
- * 
+ * This abstract data store is the root for all document data stores. A 
+ * document is defined as a store of data held in an object, for example
+ * this could be something as simple as a String, a File or a URL to even
+ * slightly more complex documents such as NoSQL documents. This class
+ * provides very basic default functionality, however it is recommended
+ * that sub classes overwrite where possible to suit the needs of the
+ * document in its validation.
  * 
  * @author Harvey Lowndes
  *
